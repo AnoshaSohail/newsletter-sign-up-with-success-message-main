@@ -1,99 +1,122 @@
-# Frontend Mentor - Newsletter sign-up form with success message
+# Newsletter Sign-up Form with Success Message
 
-![Design preview for the Newsletter sign-up form with success message coding challenge](./design/desktop-preview.jpg)
+This is a solution to the "Newsletter sign-up form with success message" challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Welcome! 👋
+## Overview
 
-Thanks for checking out this front-end coding challenge.
+The "Newsletter Sign-up Form with Success Message" project aimed to create a functional and visually appealing web page that allows users to subscribe to a newsletter. The primary objectives were to implement a responsive design, real-time form validation, and a success message upon successful submission.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+### Key Features
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+- **Responsive Design**: The project adopted a mobile-first approach, ensuring that the layout and content are optimized for various screen sizes, from mobile devices to larger desktop screens.
 
-## The challenge
+- **Form Validation**: The sign-up form includes client-side validation using HTML5 attributes like `required` and `pattern` on the email input field. JavaScript was also employed to enhance validation and provide immediate feedback to users.
 
-Your challenge is to build out this newsletter form and get it looking as close to the design as possible.
+- **Dynamic Content**: Upon successful submission of a valid email address, the project dynamically displays a personalized success message that includes the user's email.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+- **User Experience**: Hover and focus styles were incorporated for interactive elements to create a more engaging and visually appealing user experience.
 
-Your users should be able to:
+### Technologies Used
 
-- Add their email and submit the form
-- See a success message with their email after successfully submitting the form
-- See form validation messages if:
-  - The field is left empty
-  - The email address is not formatted correctly
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- **HTML5**: The project's structure and content are built using semantic HTML5 markup, ensuring accessibility and SEO-friendliness.
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+- **CSS3**: Cascading Style Sheets were employed to style the web page, including the use of CSS custom properties for consistent color management.
 
-## Where to find everything
+- **JavaScript**: JavaScript was utilized to implement real-time form validation and handle the dynamic display of the success message.
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+### Challenges Faced
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+While working on this project, a few challenges were encountered. These challenges mainly revolved around form validation and ensuring a seamless transition from the main content to the success message upon submission.
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+### Lessons Learned
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+The project provided an opportunity to reinforce skills in HTML, CSS, and JavaScript. It highlighted the importance of creating responsive layouts and maintaining a user-friendly experience, especially in web forms. Form validation techniques and DOM manipulation were also areas of learning and improvement.
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+### Future Enhancements
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+In the future, there's potential to further enhance the project by implementing additional features, such as server-side validation, integration with a database for storing email addresses, and more advanced user interactions.
 
-## Building your project
+Overall, the "Newsletter Sign-up Form with Success Message" project was a valuable learning experience that allowed for the application of fundamental web development skills and the exploration of user-centric design principles.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### The Challenge
 
-## Deploying your project
+The challenge involved creating a newsletter sign-up form with the following requirements:
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+- Allow users to input their email and submit the form.
+- Display a success message with their email after successfully submitting the form.
+- Show form validation messages if:
+  - The field is left empty.
+  - The email address is not formatted correctly.
+- Ensure the layout is responsive for different screen sizes.
+- Apply hover and focus states for interactive elements on the page.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+### Screenshot
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+![Screenshot](./assets/images/ss1.png)
+![Screenshot](./assets/images/ss2.png)
+![Screenshot](./assets/images/ss3.png)
+![Screenshot](./assets/images/ss4.png)
+![Screenshot](./assets/images/ss5.png)
+## My Process
 
-## Create a custom `README.md`
+### Overview
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+For the "Newsletter Sign-up Form with Success Message" project, my goal was to create a responsive and user-friendly sign-up form that provides real-time validation feedback and displays a success message upon successful submission. Here's a breakdown of my process:
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+### Building the Structure
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+I started by setting up the basic HTML structure, using semantic tags and organizing the content into sections. This included creating two articles for the main content and the success message, respectively. I also incorporated forms and input elements for user interaction.
 
-## Submitting your solution
+### Styling with CSS
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+With the HTML structure in place, I proceeded to style the page using CSS. I utilized custom properties for consistent color management and followed a mobile-first approach, ensuring the layout looked good on small screens. CSS Grid and Flexbox were employed to create a visually appealing and responsive design.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+### Adding Form Validation
 
-## Sharing your solution
+To implement form validation, I used HTML5 attributes like `required` and `pattern` on the email input field. This provided basic client-side validation. Additionally, I wrote JavaScript to enhance validation further and provide real-time feedback. When users submit the form with invalid input or leave fields empty, error messages are displayed, and input fields are highlighted.
 
-There are multiple places you can share your solution:
+### Displaying Success Message
 
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+Upon successful form submission, I utilized JavaScript to hide the main content article and reveal the success message article. The user's email address was dynamically inserted into the success message to personalize it.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+### Enhancing User Experience
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+To improve the user experience, I added hover and focus styles for interactive elements, ensuring they respond visually to user interactions. This makes the form feel more interactive and engaging.
 
-## Got feedback for us?
+### Conclusion
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+Working on this project allowed me to strengthen my skills in HTML, CSS, and JavaScript, particularly in the areas of form validation and dynamic content manipulation. I also gained experience in creating responsive layouts that adapt to various screen sizes.
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+In future projects, I plan to explore more advanced JavaScript techniques and further refine my CSS skills to create even more polished and interactive web applications.
 
-**Have fun building!** 🚀
+
+### Built With
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- JavaScript for form validation and interactivity
+
+### What I Learned
+
+While working on this project, I learned how to:
+
+- Create a responsive layout using CSS Flexbox and Grid.
+- Implement form validation using JavaScript.
+- Update content dynamically based on user input.
+- Apply hover and focus styles to enhance user experience.
+
+### Continued Development
+
+In future projects, I plan to further improve my knowledge of JavaScript for enhancing interactivity and explore more advanced CSS and JS techniques for creating visually appealing designs.
+
+## Author
+
+- [AnoshaSohai](https://github.com/AnoshaSohai)
+- Frontend Mentor - [@AnoshaSohail](https://www.frontendmentor.io/profile/AnoshaSohail)
+
+## Solution
+- [Live Site]( https://anoshasohail.github.io/newsletter-sign-up-with-success-message-main/)
+-[Solution URL](https://github.com/AnoshaSohail/newsletter-sign-up-with-success-message-main.git)
