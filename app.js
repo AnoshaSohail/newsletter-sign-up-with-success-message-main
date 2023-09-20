@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Add an event listener to the dismiss button
     dismissBtn.addEventListener('click', function () {
         mainPage.style.display='flex';
-            thanksPage.style.display='none'
+            thanksPage.style.display='none';
+            emailInput.value = ""
     });
 });
