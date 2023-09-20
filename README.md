@@ -119,4 +119,4 @@ In future projects, I plan to further improve my knowledge of JavaScript for enh
 
 ## Solution
 - [Live Site]( https://anoshasohail.github.io/newsletter-sign-up-with-success-message-main/)
--[Solution URL](https://github.com/AnoshaSohail/newsletter-sign-up-with-success-message-main.git)
+- [Solution URL](https://github.com/AnoshaSohail/newsletter-sign-up-with-success-message-main.git)
