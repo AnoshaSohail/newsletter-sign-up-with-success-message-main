@@ -54,8 +54,8 @@ label{
     color: var(--dark-gray);
 }
 input{
-    padding: 1em;
-    border: 2px solid var(--gray);
+    padding: 1.5em;
+    border: 1px solid var(--gray);
     border-radius: 0.5em;
     color: var(--gray);
 }
@@ -73,7 +73,7 @@ input:active , input:focus{
         outline: none;
   } */
 .submit__btn, button{
-    padding: 1em;
+    padding: 1.5em;
     font-weight: 600;
     border: none;
     border-radius: 0.5em;
@@ -135,8 +135,9 @@ input:active , input:focus{
     background-color: var(--white);
     display: flex;
     align-items: center;
+    gap: 1.5em;
     border-radius: 1em;
-    padding: 1em;
+    padding: 1.5em;
 }
 .left__col{
     order: 2;
