@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+<main>
+  <article class="main__article">
+    <div class="wrapper">
+      <div class="left__col">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./assets/images/illustration-sign-up-mobile.svg">
+          <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+        </picture>
+      </div>
+      <div class="right__col">
+        <h1>Stay updated!</h1>
+        <p class="gray__typography">Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul class="">
+          <li class="gray__typography"> <img src="./assets/images/icon-list.svg" class="pr-1" alt=""> Product discovery and building what matters</li>
+          <li class="gray__typography"> <img src="./assets/images/icon-list.svg" class="pr-1" alt=""> Measuring to ensure updates are a success</li>
+          <li class="gray__typography"> <img src="./assets/images/icon-list.svg" class="pr-1" alt=""> And much more!</li>
+        </ul>
+        <form action="" id="myForm" novalidate>
+          
+          <label for="email" class="">Email address <div class="error">Valid email required</div></label>
+          <input type="email" name="email" id="email" placeholder="email@company.com" required  >
+
+          <button type="submit" class="submit__btn">Subscribe to monthly newsletter</button>
+        </form>
+      </div>
+    </div>
+  </article>
+  <article class="thanks__article">
+    <div class="thanks__wrapper">
+      <div class="grid">
+        <img src="./assets/images/icon-success.svg" alt="">
+      <h1>Thanks for subscribing!</h1>
+      <p class="gray__typography">
+        A confirmation email has been sent to <span class="user__email">anoshasohail676@gmail.com</span>. Please open it and click the button inside to confirm your subscription
+      </p>
+      </div>
+      <button class="dismiss__btn">Dismiss message</button>
+    </div>
+  </article>
+</main>
+<script src="./app.js"></script>
+</body>
+</html>
